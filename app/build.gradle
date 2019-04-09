@@ -1,0 +1,92 @@
+/*
+ * Copyright 2015 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+// query git for the SHA, Tag and commit count. Use these to automate versioning.
+//def gitSha = 'git rev-parse --short HEAD'.execute([], project.rootDir).text.trim()
+//def gitTag = 'git describe --tags'.execute([], project.rootDir).text.trim()
+//def gitCommitCount = 100 +
+//        Integer.parseInt('git rev-list --count HEAD'.execute([], project.rootDir).text.trim())
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "io.foshizzle"
+        minSdkVersion 21
+        targetSdkVersion versions.targetSdk
+        versionCode 1
+        versionName "1.0"
+        archivesBaseName = "foshizzle"
+        resConfig "en"
+//        buildConfigField "String", "GIT_SHA", "\"${gitSha}\""
+        buildConfigField "String", "DRIBBBLE_CLIENT_ID", "\"${dribbble_client_id}\""
+        buildConfigField "String", "DRIBBBLE_CLIENT_SECRET", "\"${dribbble_client_secret}\""
+        buildConfigField "String",
+                "DRIBBBLE_CLIENT_ACCESS_TOKEN", "\"${dribbble_client_access_token}\""
+        buildConfigField "String", "DEVIANTART_CLIENT_ID", "\"${deviantart_client_id}\""
+        buildConfigField "String", "DEVIANTART_CLIENT_SECRET", "\"${deviantart_client_secret}\""
+        buildConfigField "String", "DEVIANTART_REDIRECT_URI", "\"${deviantart_redirect_uri}\""
+        buildConfigField "String",
+                "PROCUCT_HUNT_DEVELOPER_TOKEN", "\"${product_hunt_developer_token}\""
+        def filesAuthorityValue = applicationId + ".shareprovider"
+        buildConfigField "String", "FILES_AUTHORITY", "\"${filesAuthorityValue}\""
+        manifestPlaceholders = [filesAuthority: filesAuthorityValue]
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+repositories {
+    jcenter()
+    google()
+}
+
+dependencies {
+    compile 'com.android.support.constraint:constraint-layout:1.1.0-beta1'
+    compile "com.android.support:customtabs:${versions.supportLibrary}"
+    compile "com.android.support:design:${versions.supportLibrary}"
+    compile "com.android.support:palette-v7:${versions.supportLibrary}"
+    compile "com.android.support:recyclerview-v7:${versions.supportLibrary}"
+    compile "com.android.support:support-dynamic-animation:${versions.supportLibrary}"
+    compile "com.github.bumptech.glide:glide:${versions.glide}"
+    annotationProcessor "com.github.bumptech.glide:compiler:${versions.glide}"
+    compile "com.github.bumptech.glide:okhttp3-integration:${versions.glide}"
+    compile "com.github.bumptech.glide:recyclerview-integration:${versions.glide}"
+    compile 'com.google.code.gson:gson:2.8.1'
+    compile "com.jakewharton:butterknife:${versions.butterknife}"
+    annotationProcessor "com.jakewharton:butterknife-compiler:${versions.butterknife}"
+    compile "com.squareup.retrofit2:retrofit:${versions.retrofit}"
+    compile "com.squareup.retrofit2:converter-gson:${versions.retrofit}"
+    compile 'com.squareup.okhttp3:okhttp:3.9.0'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:${versions.kotlin}"
+    compile 'org.jsoup:jsoup:1.10.3'
+    compile 'com.github.clans:fab:1.6.4'
+    compile project(':bypass')
+}
