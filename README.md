@@ -4,8 +4,7 @@
 
 *Design news and inspiration.*
 
-Foshizzle is an extension of [plaid](https://www.github/nickbutcher/plaid) and it is a showcase of [material design](https://www.google.com/design/spec/) that we hope you will
-keep installed. It pulls in news & inspiration from 
+Foshizzle is an extension of [plaid](https://www.github/nickbutcher/plaid) and it is a showcase of [material design](https://www.google.com/design/spec/). It pulls in news & inspiration from 
 [Dribbble](https://dribbble.com/) & [DeviantArt](https://www.deviantart.com/). It demonstrates
 the use of
 [material principles](https://www.google.com/design/spec/material-design/introduction.html#introduction-principles)
