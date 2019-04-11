@@ -17,16 +17,17 @@ to create tactile, bold, understandable UIs.
 ### Screenshots
 
 
-<img src="https://lh3.googleusercontent.com/n1mYIQpx_blEuM62PNOPYHwBFVwp-DQKLmBCIDtenkL0uwo-41yHvmjlGoZAvIz7Mzg=w2880-h1450-rw" width="25%" />
-<img src="screenshots/post_story_framed.png" width="25%" />
-<img src="screenshots/dn_story_framed.png" width="25%" />
-<img src="screenshots/dribbble_shot_framed.png" width="25%" />
+<img src="https://lh3.googleusercontent.com/n1mYIQpx_blEuM62PNOPYHwBFVwp-DQKLmBCIDtenkL0uwo-41yHvmjlGoZAvIz7Mzg=w2880-h1450-rw" width="45%" />
+<img src="https://lh3.googleusercontent.com/FTFGinVjZBzLUqVsMBR1lcKOMhfO82obMQJtPt90B3WQmCf2qTYG3J890cOBUV6YQJA=w2880-h1450-rw" width="45%" />
+<img src="https://lh3.googleusercontent.com/1wLnKxNMqSCR8F48Az3_Ynvn0_2jTgMiBM4hxu4o9_2OVX-XVfRmbqVzrDtn94f39g=w2880-h1450-rw" width="45%" />
+<img src="https://lh3.googleusercontent.com/1wLnKxNMqSCR8F48Az3_Ynvn0_2jTgMiBM4hxu4o9_2OVX-XVfRmbqVzrDtn94f39g=w2880-h1450-rw" width="45%" />
 
 
-##### Non-Goals
-Plaid is a UI sample and seeks to demonstrate how to implement material design. To make this as clear as possible it explicitly does not attempt to:
+##### To-Dos
+* Update to Kotlin and Modern Android Architecture views as per Plaid v2.0
+* Support multiple providers e.g. Behance
 * Provide opinionated **architecture/testing** advice; it utilizes vanilla Android components. For advice on this, I'd recommend [Blueprints](https://github.com/googlesamples/android-architecture).
-* Support **pre-Lollipop** devices. Doing so is entirely possible, but complicates things. For advice on doing this, see [this fork](https://github.com/hzsweers/plaid/tree/z/moarbackport).
+
 
 
 ### License
