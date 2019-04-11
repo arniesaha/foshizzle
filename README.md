@@ -1,7 +1,5 @@
 # Foshizzle - is an extension of Plaid v1.0 with Deviantart support 
 
-<img src="screenshots/plaid_demo.gif" width="300" align="right" hspace="20">
-
 *Design news and inspiration.*
 
 Foshizzle is an extension of [plaid](https://www.github/nickbutcher/plaid) and it is a showcase of [material design](https://www.google.com/design/spec/). It pulls in news & inspiration from 
