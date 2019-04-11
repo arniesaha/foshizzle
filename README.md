@@ -20,7 +20,7 @@ to create tactile, bold, understandable UIs.
 <img src="https://lh3.googleusercontent.com/n1mYIQpx_blEuM62PNOPYHwBFVwp-DQKLmBCIDtenkL0uwo-41yHvmjlGoZAvIz7Mzg=w2880-h1450-rw" width="45%" />
 <img src="https://lh3.googleusercontent.com/FTFGinVjZBzLUqVsMBR1lcKOMhfO82obMQJtPt90B3WQmCf2qTYG3J890cOBUV6YQJA=w2880-h1450-rw" width="45%" />
 <img src="https://lh3.googleusercontent.com/1wLnKxNMqSCR8F48Az3_Ynvn0_2jTgMiBM4hxu4o9_2OVX-XVfRmbqVzrDtn94f39g=w2880-h1450-rw" width="45%" />
-<img src="https://lh3.googleusercontent.com/1wLnKxNMqSCR8F48Az3_Ynvn0_2jTgMiBM4hxu4o9_2OVX-XVfRmbqVzrDtn94f39g=w2880-h1450-rw" width="45%" />
+<img src="https://lh3.googleusercontent.com/GQblcGBOSsLzxWDwQ4sIxjcfmi9eMFJfiw58G4tbMhYdD_OtQhYYoPdEHcET2EBoNO3y=w2880-h1450-rw" width="45%" />
 
 
 ##### To-Dos
