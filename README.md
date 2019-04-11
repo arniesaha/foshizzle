@@ -17,7 +17,7 @@ to create tactile, bold, understandable UIs.
 ### Screenshots
 
 
-<img src="screenshots/home_grid_framed.png" width="25%" />
+<img src="https://lh3.googleusercontent.com/n1mYIQpx_blEuM62PNOPYHwBFVwp-DQKLmBCIDtenkL0uwo-41yHvmjlGoZAvIz7Mzg=w2880-h1450-rw" width="25%" />
 <img src="screenshots/post_story_framed.png" width="25%" />
 <img src="screenshots/dn_story_framed.png" width="25%" />
 <img src="screenshots/dribbble_shot_framed.png" width="25%" />
