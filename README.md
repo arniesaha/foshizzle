@@ -1,4 +1,4 @@
-# Foshizzle - is an extension of Plaid v1.0 with DeviantArt support 
+# Foshizzle - is an extension of Plaid v1.0 with Deviantart support 
 
 <img src="screenshots/plaid_demo.gif" width="300" align="right" hspace="20">
 
@@ -11,7 +11,7 @@ the use of
 [material principles](https://www.google.com/design/spec/material-design/introduction.html#introduction-principles)
 to create tactile, bold, understandable UIs.
 
-**[Install on Google Play](https://play.google.com/apps/testing/io.plaidapp)**
+**[Install on Google Play](https://play.google.com/store/apps/details?id=io.foshizzle)**
 
 
 ### Screenshots
